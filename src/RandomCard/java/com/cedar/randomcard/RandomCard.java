@@ -40,7 +40,7 @@ public class RandomCard {
         logger.info("End shuffle");
 
         logger.info("Start Writing to file");
-        try(PrintWriter pw = new PrintWriter(Files.newBufferedWriter(Paths.get("/tmp/numbers.txt")))) {
+        try(PrintWriter pw = new PrintWriter(Files.newBufferedWriter(Paths.get("numbers.txt")))) {
             cards.forEach(pw::println);
         } catch (IOException e) {
             logger.error(e);

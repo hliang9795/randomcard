@@ -1,12 +1,9 @@
-package com.cedar.randomcard;
+package com.cedar.number.fun;
 
 public class Mod10Utils {
     /**
      * Calculate check digit for a long number x of y digits. Assumes check digit
      * will be append as last digits of the new number
-     *
-     * @param numberString
-     * @return
      */
     public static long appendMod10(long x) {
         boolean isDouble = true;

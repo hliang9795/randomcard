@@ -210,3 +210,27 @@ Let me know which one you like.
 
 Stay tuned, we will have a second sprint. 
  
+#### Appedix Test Result
+<pre>
+* 6.24 s      passedTest_randomCardGen_M1()
+* 1 m 9 s     passedTest_randomCardGen_M2()
+* 3.19 s      passedTest_randomCardGen_M3()
+* 2.97 s      passedTest_randomCardGen_M4()
+</pre>
+
+##### Computer Information:
+<pre> 
+OS Name:                   Microsoft Windows 10 Home
+OS Version:                10.0.17134 N/A Build 17134
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+System Manufacturer:       Dell Inc.
+System Model:              XPS 8700
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 60 Stepping 3 GenuineIntel ~3601 Mhz
+Total Physical Memory:     16,335 MB
+
+DISK: Samsung 850 EVO 240G
+</pre>

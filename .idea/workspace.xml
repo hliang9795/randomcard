@@ -6,23 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bc9ed9a-86c0-447e-88b5-f33241de73a3" name="Default" comment="Using relative file path.">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cedar/number/fun/Mod10Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cedar/number/fun/RandomCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/randomcard_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/randomcard_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1bc9ed9a-86c0-447e-88b5-f33241de73a3" name="Default" comment="Clean up">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/randomcard.iml" beforeDir="false" afterPath="$PROJECT_DIR$/randomcard.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RandomCard/java/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RandomCard/java/com/cedar/number/fun/MaxNumSameDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cedar/number/fun/MaxNumSameDigits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RandomCard/java/com/cedar/randomcard/Mod10Utils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RandomCard/java/com/cedar/randomcard/RandomCard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RandomCard/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RandomCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RandomCardTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,12 +22,13 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/randomcard$RandomCardTest.ic" NAME="RandomCardTest Coverage Results" MODIFIED="1529107327410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" openResultsInEditor="true" userTempatePath="" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="ReferencePipeline.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/stream/ReferencePipeline.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6936">
+            <state relative-caret-position="17">
               <caret line="490" column="24" selection-start-line="490" selection-start-column="24" selection-end-line="490" selection-end-column="24" />
               <folding>
                 <element signature="e#15146#15147#0" expanded="true" />
@@ -63,17 +50,17 @@
       <file leaf-file-name="ReflectionUtils.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.2.0/junit-platform-commons-1.2.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2941">
+            <state relative-caret-position="17">
               <caret line="249" column="17" selection-start-line="249" selection-start-column="17" selection-end-line="249" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RandomCardTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RandomCardTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/RandomCardTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="533">
-              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1100#1105#0" />
@@ -88,18 +75,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mod10UtilsTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Mod10UtilsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -128,8 +103,8 @@
       <file leaf-file-name="RandomCard.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cedar/number/fun/RandomCard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+            <state relative-caret-position="584">
+              <caret line="116" column="5" lean-forward="true" selection-start-line="98" selection-start-column="3" selection-end-line="116" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,14 +112,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="51">
-                <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <first_editor relative-caret-position="1382">
+                <caret line="230" column="52" lean-forward="true" selection-start-line="230" selection-start-column="52" selection-end-line="230" selection-end-column="52" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test Results - RandomCardTest.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test Results - RandomCardTest.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="611" selection-start-line="611" selection-end-line="611" />
             </state>
           </provider>
         </entry>
@@ -188,8 +172,8 @@
         <option value="$PROJECT_DIR$/src/test/java/Mod10UtilsTest.java" />
         <option value="$PROJECT_DIR$/src/RandomCard/java/com/cedar/number/fun/Mod10Utils.java" />
         <option value="$PROJECT_DIR$/src/RandomCard/java/com/cedar/number/fun/RandomCard.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/RandomCardTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -545,7 +529,7 @@
       <workItem from="1529028504886" duration="296000" />
       <workItem from="1529028919513" duration="721000" />
       <workItem from="1529030416864" duration="694000" />
-      <workItem from="1529104349086" duration="3350000" />
+      <workItem from="1529104349086" duration="10941000" />
     </task>
     <task id="LOCAL-00001" summary="Using relative file path.">
       <created>1528769186064</created>
@@ -568,7 +552,21 @@
       <option name="project" value="LOCAL" />
       <updated>1529028968622</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Clean up">
+      <created>1529107714894</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1529107714894</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Write up.">
+      <created>1529114459215</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1529114459215</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -604,24 +602,24 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82212000" />
+    <option name="totallyTimeSpent" value="89803000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32810968" />
+      <window_info anchor="bottom" id="Messages" order="0" visible="true" weight="0.32810968" />
       <window_info anchor="right" id="Palette&#9;" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="1" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.3289183" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.32810968" />
-      <window_info active="true" anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.32995737" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.3289183" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.32810968" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32995737" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32810968" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.20415778" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.20415778" />
       <window_info anchor="bottom" id="Inspection Results" weight="0.32908913" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32908913" />
@@ -657,7 +655,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Using relative file path." />
-    <option name="LAST_COMMIT_MESSAGE" value="Using relative file path." />
+    <MESSAGE value="Clean up" />
+    <MESSAGE value="Write up." />
+    <option name="LAST_COMMIT_MESSAGE" value="Write up." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -673,16 +673,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cedar/number/fun/RandomCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Mod10UtilsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -961,24 +951,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RandomCard/java/com/cedar/randomcard/MaxSameDigits.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/stream/ReferencePipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6936">
-          <caret line="490" column="24" selection-start-line="490" selection-start-column="24" selection-end-line="490" selection-end-column="24" />
-          <folding>
-            <element signature="e#15146#15147#0" expanded="true" />
-            <element signature="e#15205#15206#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.2.0/junit-platform-commons-1.2.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2941">
-          <caret line="249" column="17" selection-start-line="249" selection-start-column="17" selection-end-line="249" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Mod10UtilsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -996,40 +968,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cedar/number/fun/RandomCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="51">
-            <caret line="3" selection-start-line="3" selection-end-line="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MaxNumSameDigitsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" selection-start-column="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cedar/number/fun/MaxNumSameDigits.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
@@ -1040,15 +978,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.2.0/junit-platform-commons-1.2.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="249" column="17" selection-start-line="249" selection-start-column="17" selection-end-line="249" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RandomCardTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="533">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1100#1105#0" />
             <element signature="e#1294#1299#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MaxNumSameDigitsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/stream/ReferencePipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="490" column="24" selection-start-line="490" selection-start-column="24" selection-end-line="490" selection-end-column="24" />
+          <folding>
+            <element signature="e#15146#15147#0" expanded="true" />
+            <element signature="e#15205#15206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cedar/number/fun/RandomCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="116" column="5" lean-forward="true" selection-start-line="98" selection-start-column="3" selection-end-line="116" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test Results - RandomCardTest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="611" selection-start-line="611" selection-end-line="611" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1382">
+            <caret line="230" column="52" lean-forward="true" selection-start-line="230" selection-start-column="52" selection-end-line="230" selection-end-column="52" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

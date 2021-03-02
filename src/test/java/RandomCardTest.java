@@ -28,7 +28,7 @@ class RandomCardTest {
     void Test_randomCardGen_M1 () {
         RandomCard rc = new RandomCard();
         rc.randomCardGen_M1(450000000000000L, size, "Numbers_M1.txt");
-        rt.traceMethodCalls(true );
+//        rt.traceMethodCalls(true );
      }
 
     @Test

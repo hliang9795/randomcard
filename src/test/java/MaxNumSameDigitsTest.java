@@ -22,7 +22,7 @@ public class MaxNumSameDigitsTest {
         MaxNumSameDigits mnsd = new MaxNumSameDigits();
         mnsd.statSeq(1000000,6);
         mnsd.statSeq(10000000,7);
-        mnsd.statSeq(100000000,8);
-        mnsd.statSeq(1000000000,9);
+        //mnsd.statSeq(100000000,8);
+        //mnsd.statSeq(1000000000,9);
     }
 }

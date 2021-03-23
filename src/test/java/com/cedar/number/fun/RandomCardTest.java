@@ -1,14 +1,16 @@
-import com.cedar.number.fun.RandomCard;
-import org.junit.jupiter.api.*;
+package com.cedar.number.fun;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
-class RandomCardTest {
+public class RandomCardTest {
     private Runtime rt = Runtime.getRuntime();
     private static final Logger logger = LogManager.getLogger("RandomCardTest");
     private long m1, m2;
-    private int size = 10000000;
+    private int size = 100000;
 
     @BeforeEach
     void collectMemoryBefore () {
@@ -20,34 +22,29 @@ class RandomCardTest {
     void collectMemoryAfter() {
         rt.gc();
         m2 = rt.freeMemory()/1024;
-        System.out.format("m1=%d, m2=%d, diff=%d\n", m1, m2, (m1-m2));
+        System.out.format("m1=%dk, m2=%dk, diff=%dk\n", m1, m2, (m1-m2));
     }
 
     @Test
-    @Tag("RandomCard")
-    void Test_randomCardGen_M1 () {
+    public void Test_randomCardGen_M1 () {
         RandomCard rc = new RandomCard();
         rc.randomCardGen_M1(450000000000000L, size, "Numbers_M1.txt");
 //        rt.traceMethodCalls(true );
      }
 
     @Test
-    @Tag("RandomCard")
-    void Test_randomCardGen_M2 () {
+    public void Test_randomCardGen_M2 () {
         RandomCard rc = new RandomCard();
         rc.randomCardGen_M2(450000000000000L, size, "Numbers_M2.txt");
     }
     @Test
-    @Tag("RandomCard")
-    void Test_randomCardGen_M3() {
+    public void Test_randomCardGen_M3() {
         RandomCard rc = new RandomCard();
         rc.randomCardGen_M3(450000000000000L, size, "Numbers_M3.txt");
     }
     @Test
-    @Tag("RandomCard")
-    void Test_randomCardGen_M4() {
+    public void Test_randomCardGen_M4() {
         RandomCard rc = new RandomCard();
         rc.randomCardGen_M4(450000000000000L, size, "Numbers_M4.txt");
     }
 }
-
